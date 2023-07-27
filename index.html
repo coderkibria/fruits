@@ -17,6 +17,14 @@
         .lato{
           font-family: 'Lato', sans-serif;
         }
+        @media screen and (max-width: 576px) {
+          #formobile {
+            width: 0;
+            height: 0;
+          display: none;
+          margin-top: -200px;
+  }
+}
     </style>
 </head>
 <body class="lato m-0 p-0">
@@ -140,8 +148,8 @@
                       </div>
                     </div>
                   </div>
-                  <!-- Overlay Hero -->
-                  <div class="mt-4 w-96 md:w-[730px] md:h-[120px] lg:w-[1060px] lg:-bottom-24 lg:left-28 flex justify-evenly bg-white shadow-lg rounded-lg items-center text-center absolute lg:py-8 lg:px-10
+                  <!-- Overlap Hero Section -->
+                  <div id="formobile" class="mt-4 w-96 md:w-[730px] md:h-[120px] lg:w-[1060px] lg:-bottom-24 lg:left-28 flex justify-evenly bg-white shadow-lg rounded-lg items-center text-center absolute lg:py-8 lg:px-10
                   lg:h-[220px] border-t-2 lg:border-t-0">
                     <div class="lg:space-y-4">
                         <img class="w-16 lg:w-full" src="images/fruit1.png" alt="">
@@ -168,7 +176,7 @@
             </div>
         </section>
         <!-- Deal Section-->
-        <section class="max-w-screen-xl mx-auto mb-5 mt-32 md:mt-48 lg:mb-32">
+        <section class="max-w-screen-xl mx-auto mb-5 mt-6 md:mt-48 lg:mb-32">
             <div class="flex-col lg:flex-row flex justify-between items-center gap-4 lg:gap-80">
                 <div class="space-y-3 lg:space-y-6 px-20 lg:px-0">
                     <h1 class="text-center text-xl lg:text-left text-[#121212] lg:text-5xl font-extrabold">Deal of the day</h1>
